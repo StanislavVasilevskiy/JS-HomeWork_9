@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.notificationsBarStyle {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+.error,
+.alert,
+.msg {
+	position: relative;
+	width: 200px;
+	margin: 20px 5px 20px 20px;
+	padding: 30px 40px;
+	border-radius: 30px 20px 0 20px;
+	box-shadow: 0 0 10px #000;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.error {
+	background-color: #FFC1CA;
+	color: #D52E02;
+	font-weight: bold;
+}
+
+.alert {
+	background-color: #D4FECA;
+	color: #3C7818;
+	font-weight: bold;
+}
+
+.msg {
+	background-color: #E2E2E2;
+	color: #2073FC;
+}
